@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_wasptree_jhttp_1743080159504-pr-trigger-input-set
+  identifier: Build_wasptree_jhttp_1743080159504prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Andy_Sutcliffe
+  pipeline:
+    identifier: Build_wasptree_jhttp_1743080159504
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
